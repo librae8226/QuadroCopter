@@ -1,0 +1,35 @@
+SCHEDULE1(NORMAL):
+
+Item					Type						amount	price/single pic
+
+Main MCU			STM32F103RBT6		1			17
+BLDC/DC MCU		STM8S903K3T6		4			4.5
+Acc. Sensor		ADXL335				1			15
+Gyro Sensor		ENC-03RC				3			18
+Amplifier				TLC274					4			2.5
+
+PCB					Main						5x5		50
+PCB					Motor					2x1		20
+
+Total
+
+==============================================
+
+SCHEDULE2(MICRO):
+Item					Type						amount	price/1 pic		price
+
+Main MCU			STM32F103RBT6		1			17					17
+Acc. Sensor		ADXL335				1			15					15
+Gyro Sensor		ENC-03RC				3			18					54
+*Power MOSFET	IRLML2502				8			0.5				4Motor(gear)		7mm(coreless)			4			30					120
+Power				PAM3101				2			1					2
+Tan CAP				EIA3528					4			1					4
+CAP					0603						33			0.01				0.5
+RES					0603						31			0.01				0.5
+Amplifier				LM324(SO14)			1			0.5				0.5
+LED					0603						3			0.2				0.6
+Oscillator			8M						1			0.25				1Body					carbon fiber(¦µ4mm)	1			4					4
+Battery				25C/330mAH			1			20					20
+
+PCB					Main						5x5		50					50
+Total																				293.10

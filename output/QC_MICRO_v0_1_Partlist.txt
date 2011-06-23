@@ -1,0 +1,112 @@
+Partlist
+
+Exported from QC_MICRO_v0_1.sch at 2010-12-15 20:30:38
+
+EAGLE Version 5.10.0 Copyright (c) 1988-2010 CadSoft
+
+Part       Value              Device             Package               Library  Sheet
+
+C1         10uF               CAP_POL3528        EIA3528               SparkFun 1
+C2         1u                 CAP0603-CAP        0603-CAP              SparkFun 1
+C3         10n                CAP0603-CAP        0603-CAP              SparkFun 1
+C4         2.2u               CAP0603-CAP        0603-CAP              SparkFun 1
+C5         10n                CAP0603-CAP        0603-CAP              SparkFun 1
+C6         2.2u               CAP0603-CAP        0603-CAP              SparkFun 1
+C7         104                CAP0603-CAP        0603-CAP              SparkFun 1
+C8         104                CAP0603-CAP        0603-CAP              SparkFun 1
+C9         104                CAP0603-CAP        0603-CAP              SparkFun 1
+C10        104                CAP0603-CAP        0603-CAP              SparkFun 1
+C11        10uF               CAP_POL3528        EIA3528               SparkFun 1
+C12        4.7u               CAP0603-CAP        0603-CAP              SparkFun 1
+C13        4.7u               CAP0603-CAP        0603-CAP              SparkFun 1
+C14        1u                 CAP0603-CAP        0603-CAP              SparkFun 1
+C15        1800p              CAP0603-CAP        0603-CAP              SparkFun 1
+C16        1800p              CAP0603-CAP        0603-CAP              SparkFun 1
+C17        1800p              CAP0603-CAP        0603-CAP              SparkFun 1
+C18        4.7u               CAP0603-CAP        0603-CAP              SparkFun 1
+C19        4.7u               CAP0603-CAP        0603-CAP              SparkFun 1
+C20        4.7u               CAP0603-CAP        0603-CAP              SparkFun 1
+C21        4.7u               CAP0603-CAP        0603-CAP              SparkFun 1
+C22        20p                CAP0603-CAP        0603-CAP              SparkFun 1
+C23        20p                CAP0603-CAP        0603-CAP              SparkFun 1
+C24        0.1u               CAP0603-CAP        0603-CAP              SparkFun 1
+C25        1u                 CAP0603-CAP        0603-CAP              SparkFun 1
+C26        0.1u               CAP0603-CAP        0603-CAP              SparkFun 1
+C27        0.1u               CAP0603-CAP        0603-CAP              SparkFun 1
+C28        0.1u               CAP0603-CAP        0603-CAP              SparkFun 1
+C29        0.1u               CAP0603-CAP        0603-CAP              SparkFun 1
+C30        0.1u               CAP0603-CAP        0603-CAP              SparkFun 1
+C31        0.1u               CAP0603-CAP        0603-CAP              SparkFun 1
+C32        0.1u               CAP0603-CAP        0603-CAP              SparkFun 1
+C33        0.1u               CAP0603-CAP        0603-CAP              SparkFun 1
+C34        103                CAP0603-CAP        0603-CAP              SparkFun 1
+C35        0.1u               CAP0603-CAP        0603-CAP              SparkFun 1
+C36        10uF               CAP_POL3528        EIA3528               SparkFun 1
+C37        4.7uF              CAP_POL1206        EIA3216               SparkFun 1
+GYRO-X     ENC-03S            ENC-03S            ENC-03                ENC-03R  1
+GYRO-Y     ENC-03S            ENC-03S            ENC-03                ENC-03R  1
+GYRO-Z     ENC-03S            ENC-03S            ENC-03                ENC-03R  1
+I2C_SCL    M01SMD-4.5X1.5     M01SMD-4.5X1.5     PAD-1.5X4.5           SparkFun 1
+I2C_SDA    M01SMD-4.5X1.5     M01SMD-4.5X1.5     PAD-1.5X4.5           SparkFun 1
+IC1        LMV324M            LMV324M            SO14                  linear   1
+JBLUETOOTH                    M04SMD             1X04-SMD              MyLib    1
+JP5        M01SMD             M01SMD             LUXEON-PAD            SparkFun 1
+JP6        M01SMD             M01SMD             LUXEON-PAD            SparkFun 1
+JP7        M01SMD             M01SMD             LUXEON-PAD            SparkFun 1
+JP8        M01SMD             M01SMD             LUXEON-PAD            SparkFun 1
+JTAG       M05X22MM           M05X22MM           1X10-2MM              MyLib    1
+LED1                          LED0603            LED-0603              SparkFun 1
+LED2                          LED0603            LED-0603              SparkFun 1
+LED3                          LED0603            LED-0603              SparkFun 1
+M1+        M01SMD-4.5X1.5     M01SMD-4.5X1.5     PAD-1.5X4.5           SparkFun 1
+M1-        M01SMD-4.5X1.5     M01SMD-4.5X1.5     PAD-1.5X4.5           SparkFun 1
+M2+        M01SMD-4.5X1.5     M01SMD-4.5X1.5     PAD-1.5X4.5           SparkFun 1
+M2-        M01SMD-4.5X1.5     M01SMD-4.5X1.5     PAD-1.5X4.5           SparkFun 1
+M3+        M01SMD-4.5X1.5     M01SMD-4.5X1.5     PAD-1.5X4.5           SparkFun 1
+M3-        M01SMD-4.5X1.5     M01SMD-4.5X1.5     PAD-1.5X4.5           SparkFun 1
+M4+        M01SMD-4.5X1.5     M01SMD-4.5X1.5     PAD-1.5X4.5           SparkFun 1
+M4-        M01SMD-4.5X1.5     M01SMD-4.5X1.5     PAD-1.5X4.5           SparkFun 1
+PAM3101_1  IRU1205            IRU1205            SOT23-5               v-reg-3  1
+PAM3101_2  IRU1205            IRU1205            SOT23-5               v-reg-3  1
+PWR1                          M023.5MM           SCREWTERMINAL-3.5MM-2 SparkFun 1
+PWR2                          M023.5MM           SCREWTERMINAL-3.5MM-2 SparkFun 1
+Q1         MOSFET-NCHANNELSMD MOSFET-NCHANNELSMD SOT23-3               SparkFun 1
+Q2         MOSFET-NCHANNELSMD MOSFET-NCHANNELSMD SOT23-3               SparkFun 1
+Q3         MOSFET-NCHANNELSMD MOSFET-NCHANNELSMD SOT23-3               SparkFun 1
+Q4         MOSFET-NCHANNELSMD MOSFET-NCHANNELSMD SOT23-3               SparkFun 1
+Q5         MOSFET-NCHANNELSMD MOSFET-NCHANNELSMD SOT23-3               SparkFun 1
+Q6         MOSFET-NCHANNELSMD MOSFET-NCHANNELSMD SOT23-3               SparkFun 1
+Q7         MOSFET-NCHANNELSMD MOSFET-NCHANNELSMD SOT23-3               SparkFun 1
+Q8         MOSFET-NCHANNELSMD MOSFET-NCHANNELSMD SOT23-3               SparkFun 1
+Q9         8M                 XTAL/S             QS                    special  1
+R1         1K                 RESISTOR0603-RES   0603-RES              SparkFun 1
+R2         200K               RESISTOR0603-RES   0603-RES              SparkFun 1
+R3         1K                 RESISTOR0603-RES   0603-RES              SparkFun 1
+R4         200K               RESISTOR0603-RES   0603-RES              SparkFun 1
+R5         1K                 RESISTOR0603-RES   0603-RES              SparkFun 1
+R6         200K               RESISTOR0603-RES   0603-RES              SparkFun 1
+R7         1K                 RESISTOR0603-RES   0603-RES              SparkFun 1
+R8         200K               RESISTOR0603-RES   0603-RES              SparkFun 1
+R9         1K                 RESISTOR0603-RES   0603-RES              SparkFun 1
+R10        1K                 RESISTOR0603-RES   0603-RES              SparkFun 1
+R11        100K               RESISTOR0603-RES   0603-RES              SparkFun 1
+R12        100K               RESISTOR0603-RES   0603-RES              SparkFun 1
+R13        90K                RESISTOR0603-RES   0603-RES              SparkFun 1
+R14        90K                RESISTOR0603-RES   0603-RES              SparkFun 1
+R15        90K                RESISTOR0603-RES   0603-RES              SparkFun 1
+R16        100K               RESISTOR0603-RES   0603-RES              SparkFun 1
+R17        10K                RESISTOR0603-RES   0603-RES              SparkFun 1
+R18        10K                RESISTOR0603-RES   0603-RES              SparkFun 1
+R19        10K                RESISTOR0603-RES   0603-RES              SparkFun 1
+R20        1K                 RESISTOR0603-RES   0603-RES              SparkFun 1
+R21        1K                 RESISTOR0603-RES   0603-RES              SparkFun 1
+R22        10K                RESISTOR0603-RES   0603-RES              SparkFun 1
+R23        0R                 RESISTOR0603-RES   0603-RES              SparkFun 1
+R24        1K                 RESISTOR0603-RES   0603-RES              SparkFun 1
+R25        1K                 RESISTOR0603-RES   0603-RES              SparkFun 1
+R26        1K                 RESISTOR0603-RES   0603-RES              SparkFun 1
+R27        0R                 RESISTOR0603-RES   0603-RES              SparkFun 1
+R30        10K                RESISTOR0603-RES   0603-RES              SparkFun 1
+R31        10K                RESISTOR0603-RES   0603-RES              SparkFun 1
+U1         STM32F10XRXT6      STM32F10XRXT6      TQFP64                stm32    1
+U2         ADXL335            ADXL335            LFCSP-16              SparkFun 1

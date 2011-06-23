@@ -1,0 +1,418 @@
+Pinlist
+
+Exported from QC_MICRO_v0_1.sch at 2010-12-15 20:30:47
+
+EAGLE Version 5.10.0 Copyright (c) 1988-2010 CadSoft
+
+Part     Pad      Pin        Dir      Net
+
+C1       A        +          Pas      VCC
+         C        -          Pas      GND
+
+C2       1        1          Pas      VCC
+         2        2          Pas      GND
+
+C3       1        1          Pas      N$9
+         2        2          Pas      GND
+
+C4       1        1          Pas      3.3V
+         2        2          Pas      GND
+
+C5       1        1          Pas      N$14
+         2        2          Pas      GND
+
+C6       1        1          Pas      3.3V
+         2        2          Pas      GND
+
+C7       1        1          Pas      N$1
+         2        2          Pas      VCC
+
+C8       1        1          Pas      N$2
+         2        2          Pas      VCC
+
+C9       1        1          Pas      N$3
+         2        2          Pas      VCC
+
+C10      1        1          Pas      N$4
+         2        2          Pas      VCC
+
+C11      A        +          Pas      VCC
+         C        -          Pas      GND
+
+C12      1        1          Pas      GYRO_X_OUT
+         2        2          Pas      N$19
+
+C13      1        1          Pas      GYRO_Y_OUT
+         2        2          Pas      N$18
+
+C14      1        1          Pas      VCC
+         2        2          Pas      GND
+
+C15      1        1          Pas      GYRO_X
+         2        2          Pas      N$21
+
+C16      1        1          Pas      N$22
+         2        2          Pas      GYRO_Y
+
+C17      1        1          Pas      N$24
+         2        2          Pas      GYRO_Z
+
+C18      1        1          Pas      N$30
+         2        2          Pas      GYRO_Z_OUT
+
+C19      1        1          Pas      GYRO_X_VREF
+         2        2          Pas      GND
+
+C20      1        1          Pas      GND
+         2        2          Pas      GYRO_Z_VREF
+
+C21      1        1          Pas      GYRO_Y_VREF
+         2        2          Pas      GND
+
+C22      1        1          Pas      N$15
+         2        2          Pas      GND
+
+C23      1        1          Pas      N$10
+         2        2          Pas      GND
+
+C24      1        1          Pas      GND
+         2        2          Pas      3.3V
+
+C25      1        1          Pas      GND
+         2        2          Pas      3.3V
+
+C26      1        1          Pas      GND
+         2        2          Pas      ACC_Z
+
+C27      1        1          Pas      GND
+         2        2          Pas      ACC_Y
+
+C28      1        1          Pas      GND
+         2        2          Pas      ACC_X
+
+C29      1        1          Pas      GND
+         2        2          Pas      3.3V
+
+C30      1        1          Pas      GND
+         2        2          Pas      3.3V
+
+C31      1        1          Pas      GND
+         2        2          Pas      3.3V
+
+C32      1        1          Pas      3.3V
+         2        2          Pas      AGND
+
+C33      1        1          Pas      GND
+         2        2          Pas      3.3V
+
+C34      1        1          Pas      N$11
+         2        2          Pas      GND
+
+C35      1        1          Pas      GND
+         2        2          Pas      VCC
+
+C36      A        +          Pas      VCC
+         C        -          Pas      GND
+
+C37      A        +          Pas      VCC
+         C        -          Pas      GND
+
+GYRO-X   GND      2          Pas      GND
+         OUT      4          Out      GYRO_X_OUT
+         VCC      3          Pwr      3.3V
+         VREF     1          I/O      GYRO_X_VREF
+
+GYRO-Y   GND      2          Pas      GND
+         OUT      4          Out      GYRO_Y_OUT
+         VCC      3          Pwr      3.3V
+         VREF     1          I/O      GYRO_Y_VREF
+
+GYRO-Z   GND      2          Pas      GND
+         OUT      4          Out      GYRO_Z_OUT
+         VCC      3          Pwr      3.3V
+         VREF     1          I/O      GYRO_Z_VREF
+
+I2C_SCL  P$1      1          Pas      I2C_SDA
+
+I2C_SDA  P$1      1          Pas      I2C_SCL
+
+IC1      1        OUT        Out      GYRO_X
+         2        -IN        In       N$21
+         3        +IN        In       N$19
+         4        V+         Pwr      3.3V
+         5        +IN        In       N$18
+         6        -IN        In       N$22
+         7        OUT        Out      GYRO_Y
+         8        OUT        Out      GYRO_Z
+         9        -IN        In       N$24
+         10       +IN        In       N$30
+         11       V-         Pwr      GND
+         12       +IN        In                *** unconnected ***
+         13       -IN        In                *** unconnected ***
+         14       OUT        Out               *** unconnected ***
+
+JBLUETOOTH 1        1          Pas      3.3V
+         2        2          Pas      GND
+         3        3          Pas      TX-O
+         4        4          Pas      RX-I
+
+JP5      P$1      1          Pas      VCC
+
+JP6      P$1      1          Pas      VCC
+
+JP7      P$1      1          Pas      GND
+
+JP8      P$1      1          Pas      GND
+
+JTAG     1        1          Pas      3.3V
+         2        2          Pas      JTMS
+         3        3          Pas      GND
+         4        4          Pas      JTCK
+         5        5          Pas      GND
+         6        6          Pas      JTDO
+         7        7          Pas      GND
+         8        8          Pas      JTDI
+         9        9          Pas      GND
+         10       10         Pas      JNTRST
+
+LED1     A        A          Pas      N$13
+         C        C          Pas      LED1
+
+LED2     A        A          Pas      N$16
+         C        C          Pas      LED2
+
+LED3     A        A          Pas      N$17
+         C        C          Pas      GND
+
+M1+      P$1      1          Pas      VCC
+
+M1-      P$1      1          Pas      N$1
+
+M2+      P$1      1          Pas      VCC
+
+M2-      P$1      1          Pas      N$2
+
+M3+      P$1      1          Pas      VCC
+
+M3-      P$1      1          Pas      N$3
+
+M4+      P$1      1          Pas      VCC
+
+M4-      P$1      1          Pas      N$4
+
+PAM3101_1 1        IN         Pwr      VCC
+         2        GND        Pwr      GND
+         3        ON         In       VCC
+         4        ADJ        In       N$9
+         5        OUT        Out      3.3V
+
+PAM3101_2 1        IN         Pwr      VCC
+         2        GND        Pwr      GND
+         3        ON         In       VCC
+         4        ADJ        In       N$14
+         5        OUT        Out      3.3V
+
+PWR1     1        1          Pas      VCC
+         2        2          Pas      GND
+
+PWR2     1        1          Pas      VCC
+         2        2          Pas      GND
+
+Q1       1        G          Pas      N$8
+         2        S          Pas      GND
+         3        D          Pas      N$1
+
+Q2       1        G          Pas      N$8
+         2        S          Pas      GND
+         3        D          Pas      N$1
+
+Q3       1        G          Pas      N$5
+         2        S          Pas      GND
+         3        D          Pas      N$2
+
+Q4       1        G          Pas      N$5
+         2        S          Pas      GND
+         3        D          Pas      N$2
+
+Q5       1        G          Pas      N$6
+         2        S          Pas      GND
+         3        D          Pas      N$3
+
+Q6       1        G          Pas      N$6
+         2        S          Pas      GND
+         3        D          Pas      N$3
+
+Q7       1        G          Pas      N$7
+         2        S          Pas      GND
+         3        D          Pas      N$4
+
+Q8       1        G          Pas      N$7
+         2        S          Pas      GND
+         3        D          Pas      N$4
+
+Q9       1        1          Pas      N$10
+         2        2          Pas      N$15
+
+R1       1        1          Pas      PWM1
+         2        2          Pas      N$8
+
+R2       1        1          Pas      GND
+         2        2          Pas      N$8
+
+R3       1        1          Pas      PWM2
+         2        2          Pas      N$5
+
+R4       1        1          Pas      GND
+         2        2          Pas      N$5
+
+R5       1        1          Pas      PWM3
+         2        2          Pas      N$6
+
+R6       1        1          Pas      GND
+         2        2          Pas      N$6
+
+R7       1        1          Pas      PWM4
+         2        2          Pas      N$7
+
+R8       1        1          Pas      GND
+         2        2          Pas      N$7
+
+R9       1        1          Pas      N$8
+         2        2          Pas      PWM1
+
+R10      1        1          Pas      N$5
+         2        2          Pas      PWM2
+
+R11      1        1          Pas      GYRO_Y_VREF
+         2        2          Pas      N$18
+
+R12      1        1          Pas      GYRO_X_VREF
+         2        2          Pas      N$19
+
+R13      1        1          Pas      N$21
+         2        2          Pas      GYRO_X
+
+R14      1        1          Pas      GYRO_Y
+         2        2          Pas      N$22
+
+R15      1        1          Pas      GYRO_Z
+         2        2          Pas      N$24
+
+R16      1        1          Pas      N$30
+         2        2          Pas      GYRO_Z_VREF
+
+R17      1        1          Pas      N$21
+         2        2          Pas      GYRO_X_VREF
+
+R18      1        1          Pas      N$22
+         2        2          Pas      GYRO_Y_VREF
+
+R19      1        1          Pas      GYRO_Z_VREF
+         2        2          Pas      N$24
+
+R20      1        1          Pas      N$6
+         2        2          Pas      PWM3
+
+R21      1        1          Pas      N$7
+         2        2          Pas      PWM4
+
+R22      1        1          Pas      N$12
+         2        2          Pas      3.3V
+
+R23      1        1          Pas      N$12
+         2        2          Pas      GND
+
+R24      1        1          Pas      3.3V
+         2        2          Pas      N$13
+
+R25      1        1          Pas      3.3V
+         2        2          Pas      N$16
+
+R26      1        1          Pas      3.3V
+         2        2          Pas      N$17
+
+R27      1        1          Pas      GND
+         2        2          Pas      AGND
+
+R30      1        1          Pas      VCC
+         2        2          Pas      PWR_CHECK
+
+R31      1        1          Pas      PWR_CHECK
+         2        2          Pas      GND
+
+U1       1        VBAT       Pwr      3.3V
+         2        PC13       I/O               *** unconnected ***
+         3        PC14       I/O               *** unconnected ***
+         4        PC15       I/O               *** unconnected ***
+         5        PD0/OSC<=  I/O      N$15
+         6        PD1/OSC=>  I/O      N$10
+         7        NRST       In       N$11
+         8        PC0        I/O      GYRO_Z
+         9        PC1        I/O      ACC_X
+         10       PC2        I/O      ACC_Y
+         11       PC3        I/O      ACC_Z
+         12       VSSA       Pwr      AGND
+         13       VDDA       Pwr      3.3V
+         14       PA0        I/O               *** unconnected ***
+         15       PA1        I/O      PWM2
+         16       PA2        I/O               *** unconnected ***
+         17       PA3        I/O               *** unconnected ***
+         18       VSS_4      Pwr      GND
+         19       VDD_4      Pwr      3.3V
+         20       PA4        I/O      PWR_CHECK
+         21       PA5        I/O               *** unconnected ***
+         22       PA6        I/O      LED1
+         23       PA7        I/O      LED2
+         24       PC4        I/O      GYRO_Y
+         25       PC5        I/O      GYRO_X
+         26       PB0        I/O               *** unconnected ***
+         27       PB1        I/O      PWM3
+         28       PB2        I/O               *** unconnected ***
+         29       PB10       I/O               *** unconnected ***
+         30       PB11       I/O               *** unconnected ***
+         31       VSS_1      Pwr      GND
+         32       VDD_1      Pwr      3.3V
+         33       PB12       I/O               *** unconnected ***
+         34       PB13       I/O               *** unconnected ***
+         35       PB14       I/O               *** unconnected ***
+         36       PB15       I/O               *** unconnected ***
+         37       PC6        I/O               *** unconnected ***
+         38       PC7        I/O               *** unconnected ***
+         39       PC8        I/O               *** unconnected ***
+         40       PC9        I/O               *** unconnected ***
+         41       PA8        I/O      PWM1
+         42       PA9        I/O      RX-I
+         43       PA10       I/O      TX-O
+         44       PA11       I/O               *** unconnected ***
+         45       PA12       I/O               *** unconnected ***
+         46       PA13       I/O      JTMS
+         47       VSS_2      Pwr      GND
+         48       VDD_2      Pwr      3.3V
+         49       PA14       I/O      JTCK
+         50       PA15       I/O      JTDI
+         51       PC10       I/O               *** unconnected ***
+         52       PC11       I/O               *** unconnected ***
+         53       PC12       I/O               *** unconnected ***
+         54       PD2        I/O               *** unconnected ***
+         55       PB3        I/O      JTDO
+         56       PB4        I/O      JNTRST
+         57       PB5        I/O               *** unconnected ***
+         58       PB6        I/O      I2C_SCL
+         59       PB7        I/O      I2C_SDA
+         60       BOOT0      In       N$12
+         61       PB8        I/O               *** unconnected ***
+         62       PB9        I/O      PWM4
+         63       VSS_3      Pwr      GND
+         64       VDD_3      Pwr      3.3V
+
+U2       2        ST         I/O      GND
+         3        COM        I/O      GND
+         5        COM        I/O      GND
+         6        COM        I/O      GND
+         7        COM        I/O      GND
+         8        ZOUT       I/O      ACC_Z
+         10       YOUT       I/O      ACC_Y
+         12       XOUT       I/O      ACC_X
+         14       VS         I/O      3.3V
+         15       VS         I/O      3.3V
+

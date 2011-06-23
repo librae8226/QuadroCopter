@@ -1,0 +1,42 @@
+Partlist
+
+Exported from IMU_v0_2.sch at 4/6/11 9:46 AM
+
+EAGLE Version 5.10.0 Copyright (c) 1988-2010 CadSoft
+
+Part     Value          Device           Package         Library  Sheet
+
+C1       10u            CAP_POL1206      EIA3216         SparkFun 1
+C2       0.1u           CAP0603-CAP      0603-CAP        SparkFun 1
+C3       0.1u           CAP0603-CAP      0603-CAP        SparkFun 1
+C4       0.1u           CAP0603-CAP      0603-CAP        SparkFun 1
+C5       0.1u           CAP0603-CAP      0603-CAP        SparkFun 1
+C6       4.7u           CAP0603-CAP      0603-CAP        SparkFun 1
+C7       0.1u           CAP0603-CAP      0603-CAP        SparkFun 1
+C8       0.1u           CAP0603-CAP      0603-CAP        SparkFun 1
+C9       470n           CAP0603-CAP      0603-CAP        SparkFun 1
+C10      10n            CAP0603-CAP      0603-CAP        SparkFun 1
+C11      470n           CAP0603-CAP      0603-CAP        SparkFun 1
+C12      10n            CAP0603-CAP      0603-CAP        SparkFun 1
+C13      4.7u           CAP0603-CAP      0603-CAP        SparkFun 1
+C14      0.1u           CAP0603-CAP      0603-CAP        SparkFun 1
+C15      0.1u           CAP0603-CAP      0603-CAP        SparkFun 1
+C16      4.7u           CAP0603-CAP      0603-CAP        SparkFun 1
+C17      0.1u           CAP0603-CAP      0603-CAP        SparkFun 1
+C18      10u            CAP_POL1206      EIA3216         SparkFun 1
+C20      10u            CAP_POL1206      EIA3216         SparkFun 1
+JP1                     M05PTH           1X05            SparkFun 1
+JP2                     M05PTH           1X05            SparkFun 1
+LED1                    LED0603          LED-0603        SparkFun 1
+R1       33K            RESISTOR0603-RES 0603-RES        MyLib    1
+R2       1M             RESISTOR0603-RES 0603-RES        MyLib    1
+R3       10K            RESISTOR0603-RES 0603-RES        MyLib    1
+R4       10K            RESISTOR0603-RES 0603-RES        MyLib    1
+R5       33K            RESISTOR0603-RES 0603-RES        MyLib    1
+R6       1M             RESISTOR0603-RES 0603-RES        MyLib    1
+R7       33K            RESISTOR0603-RES 0603-RES        MyLib    1
+R8       1M             RESISTOR0603-RES 0603-RES        MyLib    1
+R9       1K             RESISTOR0603-RES 0603-RES        MyLib    1
+U$1      LY530ALHSMD    LY530ALHSMD      LGA16           MyLib    1
+U$2      LPR530AL       LPR530AL         LGA16-LPR530ALH MyLib    1
+U1       ADXL335        ADXL335          LFCSP-16        MyLib    1

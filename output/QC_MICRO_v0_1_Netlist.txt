@@ -1,0 +1,339 @@
+Netlist
+
+Exported from QC_MICRO_v0_1.sch at 2010-12-15 20:30:30
+
+EAGLE Version 5.10.0 Copyright (c) 1988-2010 CadSoft
+
+Net      Part     Pad      Pin        Sheet
+
+3.3V     C24      2        2          1
+         C25      2        2          1
+         C29      2        2          1
+         C30      2        2          1
+         C31      2        2          1
+         C32      1        1          1
+         C33      2        2          1
+         C4       1        1          1
+         C6       1        1          1
+         GYRO-X   VCC      3          1
+         GYRO-Y   VCC      3          1
+         GYRO-Z   VCC      3          1
+         IC1      4        V+         1
+         JBLUETOOTH 1        1          1
+         JTAG     1        1          1
+         PAM3101_1 5        OUT        1
+         PAM3101_2 5        OUT        1
+         R22      2        2          1
+         R24      1        1          1
+         R25      1        1          1
+         R26      1        1          1
+         U1       1        VBAT       1
+         U1       13       VDDA       1
+         U1       19       VDD_4      1
+         U1       32       VDD_1      1
+         U1       48       VDD_2      1
+         U1       64       VDD_3      1
+         U2       14       VS         1
+         U2       15       VS         1
+
+ACC_X    C28      2        2          1
+         U1       9        PC1        1
+         U2       12       XOUT       1
+
+ACC_Y    C27      2        2          1
+         U1       10       PC2        1
+         U2       10       YOUT       1
+
+ACC_Z    C26      2        2          1
+         U1       11       PC3        1
+         U2       8        ZOUT       1
+
+AGND     C32      2        2          1
+         R27      2        2          1
+         U1       12       VSSA       1
+
+GND      C1       C        -          1
+         C11      C        -          1
+         C14      2        2          1
+         C19      2        2          1
+         C2       2        2          1
+         C20      1        1          1
+         C21      2        2          1
+         C22      2        2          1
+         C23      2        2          1
+         C24      1        1          1
+         C25      1        1          1
+         C26      1        1          1
+         C27      1        1          1
+         C28      1        1          1
+         C29      1        1          1
+         C3       2        2          1
+         C30      1        1          1
+         C31      1        1          1
+         C33      1        1          1
+         C34      2        2          1
+         C35      1        1          1
+         C36      C        -          1
+         C37      C        -          1
+         C4       2        2          1
+         C5       2        2          1
+         C6       2        2          1
+         GYRO-X   GND      2          1
+         GYRO-Y   GND      2          1
+         GYRO-Z   GND      2          1
+         IC1      11       V-         1
+         JBLUETOOTH 2        2          1
+         JP7      P$1      1          1
+         JP8      P$1      1          1
+         JTAG     3        3          1
+         JTAG     5        5          1
+         JTAG     7        7          1
+         JTAG     9        9          1
+         LED3     C        C          1
+         PAM3101_1 2        GND        1
+         PAM3101_2 2        GND        1
+         PWR1     2        2          1
+         PWR2     2        2          1
+         Q1       2        S          1
+         Q2       2        S          1
+         Q3       2        S          1
+         Q4       2        S          1
+         Q5       2        S          1
+         Q6       2        S          1
+         Q7       2        S          1
+         Q8       2        S          1
+         R2       1        1          1
+         R23      2        2          1
+         R27      1        1          1
+         R31      2        2          1
+         R4       1        1          1
+         R6       1        1          1
+         R8       1        1          1
+         U1       18       VSS_4      1
+         U1       31       VSS_1      1
+         U1       47       VSS_2      1
+         U1       63       VSS_3      1
+         U2       2        ST         1
+         U2       3        COM        1
+         U2       5        COM        1
+         U2       6        COM        1
+         U2       7        COM        1
+
+GYRO_X   C15      1        1          1
+         IC1      1        OUT        1
+         R13      2        2          1
+         U1       25       PC5        1
+
+GYRO_X_OUT C12      1        1          1
+         GYRO-X   OUT      4          1
+
+GYRO_X_VREF C19      1        1          1
+         GYRO-X   VREF     1          1
+         R12      1        1          1
+         R17      2        2          1
+
+GYRO_Y   C16      2        2          1
+         IC1      7        OUT        1
+         R14      1        1          1
+         U1       24       PC4        1
+
+GYRO_Y_OUT C13      1        1          1
+         GYRO-Y   OUT      4          1
+
+GYRO_Y_VREF C21      1        1          1
+         GYRO-Y   VREF     1          1
+         R11      1        1          1
+         R18      2        2          1
+
+GYRO_Z   C17      2        2          1
+         IC1      8        OUT        1
+         R15      1        1          1
+         U1       8        PC0        1
+
+GYRO_Z_OUT C18      2        2          1
+         GYRO-Z   OUT      4          1
+
+GYRO_Z_VREF C20      2        2          1
+         GYRO-Z   VREF     1          1
+         R16      2        2          1
+         R19      1        1          1
+
+I2C_SCL  I2C_SDA  P$1      1          1
+         U1       58       PB6        1
+
+I2C_SDA  I2C_SCL  P$1      1          1
+         U1       59       PB7        1
+
+JNTRST   JTAG     10       10         1
+         U1       56       PB4        1
+
+JTCK     JTAG     4        4          1
+         U1       49       PA14       1
+
+JTDI     JTAG     8        8          1
+         U1       50       PA15       1
+
+JTDO     JTAG     6        6          1
+         U1       55       PB3        1
+
+JTMS     JTAG     2        2          1
+         U1       46       PA13       1
+
+LED1     LED1     C        C          1
+         U1       22       PA6        1
+
+LED2     LED2     C        C          1
+         U1       23       PA7        1
+
+N$1      C7       1        1          1
+         M1-      P$1      1          1
+         Q1       3        D          1
+         Q2       3        D          1
+
+N$2      C8       1        1          1
+         M2-      P$1      1          1
+         Q3       3        D          1
+         Q4       3        D          1
+
+N$3      C9       1        1          1
+         M3-      P$1      1          1
+         Q5       3        D          1
+         Q6       3        D          1
+
+N$4      C10      1        1          1
+         M4-      P$1      1          1
+         Q7       3        D          1
+         Q8       3        D          1
+
+N$5      Q3       1        G          1
+         Q4       1        G          1
+         R10      1        1          1
+         R3       2        2          1
+         R4       2        2          1
+
+N$6      Q5       1        G          1
+         Q6       1        G          1
+         R20      1        1          1
+         R5       2        2          1
+         R6       2        2          1
+
+N$7      Q7       1        G          1
+         Q8       1        G          1
+         R21      1        1          1
+         R7       2        2          1
+         R8       2        2          1
+
+N$8      Q1       1        G          1
+         Q2       1        G          1
+         R1       2        2          1
+         R2       2        2          1
+         R9       1        1          1
+
+N$9      C3       1        1          1
+         PAM3101_1 4        ADJ        1
+
+N$10     C23      1        1          1
+         Q9       1        1          1
+         U1       6        PD1/OSC=>  1
+
+N$11     C34      1        1          1
+         U1       7        NRST       1
+
+N$12     R22      1        1          1
+         R23      1        1          1
+         U1       60       BOOT0      1
+
+N$13     LED1     A        A          1
+         R24      2        2          1
+
+N$14     C5       1        1          1
+         PAM3101_2 4        ADJ        1
+
+N$15     C22      1        1          1
+         Q9       2        2          1
+         U1       5        PD0/OSC<=  1
+
+N$16     LED2     A        A          1
+         R25      2        2          1
+
+N$17     LED3     A        A          1
+         R26      2        2          1
+
+N$18     C13      2        2          1
+         IC1      5        +IN        1
+         R11      2        2          1
+
+N$19     C12      2        2          1
+         IC1      3        +IN        1
+         R12      2        2          1
+
+N$21     C15      2        2          1
+         IC1      2        -IN        1
+         R13      1        1          1
+         R17      1        1          1
+
+N$22     C16      1        1          1
+         IC1      6        -IN        1
+         R14      2        2          1
+         R18      1        1          1
+
+N$24     C17      1        1          1
+         IC1      9        -IN        1
+         R15      2        2          1
+         R19      2        2          1
+
+N$30     C18      1        1          1
+         IC1      10       +IN        1
+         R16      1        1          1
+
+PWM1     R1       1        1          1
+         R9       2        2          1
+         U1       41       PA8        1
+
+PWM2     R10      2        2          1
+         R3       1        1          1
+         U1       15       PA1        1
+
+PWM3     R20      2        2          1
+         R5       1        1          1
+         U1       27       PB1        1
+
+PWM4     R21      2        2          1
+         R7       1        1          1
+         U1       62       PB9        1
+
+PWR_CHECK R30      2        2          1
+         R31      1        1          1
+         U1       20       PA4        1
+
+RX-I     JBLUETOOTH 4        4          1
+         U1       42       PA9        1
+
+TX-O     JBLUETOOTH 3        3          1
+         U1       43       PA10       1
+
+VCC      C1       A        +          1
+         C10      2        2          1
+         C11      A        +          1
+         C14      1        1          1
+         C2       1        1          1
+         C35      2        2          1
+         C36      A        +          1
+         C37      A        +          1
+         C7       2        2          1
+         C8       2        2          1
+         C9       2        2          1
+         JP5      P$1      1          1
+         JP6      P$1      1          1
+         M1+      P$1      1          1
+         M2+      P$1      1          1
+         M3+      P$1      1          1
+         M4+      P$1      1          1
+         PAM3101_1 1        IN         1
+         PAM3101_1 3        ON         1
+         PAM3101_2 1        IN         1
+         PAM3101_2 3        ON         1
+         PWR1     1        1          1
+         PWR2     1        1          1
+         R30      1        1          1
+
